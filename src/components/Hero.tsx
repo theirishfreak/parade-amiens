@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex flex-col">
       {/* Background image */}
       <img
-        src="https://images.unsplash.com/photo-1439405326854-014607f694d7?w=1920&q=80"
+        src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1920&q=80"
         alt="Parc Saint-Pierre Amiens"
         className="absolute inset-0 w-full h-full object-cover"
       />
