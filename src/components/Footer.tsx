@@ -1,6 +1,6 @@
 import { Instagram, Facebook, Twitter } from 'lucide-react'
 
-const footerLinks = ['Programme', 'Inscriptions', 'Mentions légales', 'Contact']
+const footerLinks = ['Programme', 'Journée', 'Soirée', 'Lanternes', 'Infos', 'Contact']
 
 export default function Footer() {
   return (
@@ -9,11 +9,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Logo + tagline */}
           <div>
-            <span className="text-2xl font-semibold tracking-tight text-white block mb-3">
-              LA PARADE
+            <span
+              className="text-2xl tracking-tight text-white block mb-3"
+              style={{ fontFamily: "'Instrument Serif', serif" }}
+            >
+              Amiens Far West<sup className="text-xs">™</sup>
             </span>
             <p className="text-sm text-gray-500 leading-relaxed">
-              Une parade pour Amiens, par Amiens.
+              Même thème, même magie, chaque année.
             </p>
           </div>
 
@@ -62,7 +65,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8">
           <p className="text-xs text-gray-600">
-            © 2025 Ville d'Amiens — Tous droits réservés
+            © 2026 Amiens Far West — Événement annuel à thème — Parc Saint-Pierre, Amiens
           </p>
         </div>
       </div>
